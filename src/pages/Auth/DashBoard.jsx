@@ -50,6 +50,7 @@ function DashBoard({ data }) {
     { header: "Maiden Name", text: maiden_name },
     { header: "Next of kin", text: next_of_kin },
     { header: "Header", text: opening_date },
+    { header: "Pet name", text: pet_name },
   ];
 
   const cardData = [

@@ -25,7 +25,7 @@ function NavBar() {
             <Link to="/auth/sign-in" className="md:block hidden">
               <RButton text="Sign in" />
             </Link>
-            <Link to="/auth/sign-up" className="md:ml-5 md:bl   ock hidden">
+            <Link to="/auth/sign-up" className="md:ml-5 md:block hidden">
               <RButton text="Sign up" />
             </Link>
             <button
