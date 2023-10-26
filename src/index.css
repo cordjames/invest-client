@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-btn {
+  background-image: linear-gradient(to right, #ffcc67 0%, #ff67cb 51%, #ff67cb);
+}
+
+.gb-btn {
+  border-color: linear-gradient(to right, #ffcc67 0%, #ff67cb 99%);
+}
+
+.gb-btn:hover {
+  background-image: linear-gradient(to right, #ffcc67 0%, #ff67cb 99%);
+}
+
+@media (max-width: 767px) {
+  /* CSS rules for mobile devices */
+  /* Add your styles here */
+  .hero-h1 {
+    @apply !text-[2.5rem] !mb-[0.7rem];
+  }
+  .hero-p {
+    @apply !mb-2;
+  }
+  #less-txt {
+    @apply !text-[small];
+  }
+  .hero-container {
+    @apply !text-center;
+  }
+
+  /* CSS rules for mobile devices */
+  /* Add your styles here */
+  .card-container:nth-child(2n + 1) {
+    border: 0 none;
+  }
+  h1 {
+    font-size: 1.5rem;
+    /* margin-bottom: 0.7rem; */
+  }
+  p {
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+  }
+}
+
+.card-container {
+  border-left: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  /* padding: 1rem 2.5rem; */
+  text-align: center;
+  /* max-width: 33.33333%; */
+}
+
+.ltc-icon {
+  content: url("https://api.iconify.design/cryptocurrency/ltc.svg?color=white&width=13&height=13");
+}
+.btc-icon {
+  content: url("https://api.iconify.design/icon-park-outline/bitcoin.svg?color=white&width=13&height=13");
+}
+.eth-icon {
+  content: url("https://api.iconify.design/formkit/ethereum.svg?color=white&width=13&height=13");
+}
+.rpl-icon {
+  content: url("https://api.iconify.design/simple-icons/ripple.svg?color=white&width=13&height=13");
+}
+#acc-txt {
+  color: #ffffff;
+  font-size: 16px;
+}
+#acc-txt2 {
+  color: #ffffff;
+  font-size: 13px;
+}
