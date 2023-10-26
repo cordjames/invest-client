@@ -23,7 +23,7 @@ function DashNavBar({ data }) {
           <li class="dropdown stopevent flex items-center">
             <a
               class="btn btn-light btn-icon rounded-circle indicator
-          indicator-primary text-muted"
+          indicator-primary text-muted overflow-hidden"
               href="#"
               role="button"
               id="dropdownNotification"

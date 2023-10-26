@@ -1,22 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import CardContainer from "../../components/Cards/CardContainer";
 import Info from "../../components/Info";
 import DashNavBar from "../../components/DashNavBar";
 import { Link } from "react-router-dom";
-// import "../assets/theme.css";
 
-// const data = [
-//   { header: "Account Holder", text: "Alex Ludwig Hinks" },
-//   { header: "Date Of Birth:", text: "03 Jan 1968" },
-//   { header: "Country:", text: "USA" },
-//   { header: "State:", text: "Texas" },
-//   { header: "Next of Kin:", text: "Monica A. Hinks" },
-//   { header: "Mother maiden name:", text: "Sylvester" },
-//   { header: "Accounting Opening Date:", text: "4/6/2000" },
-//   { header: "Account type:", text: "E Checking" },
-// ];
+import profile_photo from '../../assets/avatar.png'
 
 function DashBoard({ data }) {
+  let modal=useRef()
   const {
     account_number,
     account_type,
@@ -33,14 +24,15 @@ function DashBoard({ data }) {
     opening_date,
     pet_name,
     present_amount,
-    profile_photo,
     state,
     username,
+    account_status
   } = data;
 
   const descData = [
-    { header: "State", text: state },
+    { header: "Account type", text: account_type },
     { header: "Country", text: country },
+    { header: "State", text: state },
     { header: " Email", text: email },
     { header: "First name", text: first_name },
     { header: "Full name", text: full_name },
@@ -54,15 +46,24 @@ function DashBoard({ data }) {
   ];
 
   const cardData = [
-    { header: "Account status", text: account_type },
-    { header: "Account number", text: account_number },
-    { header: "OPening Amount", text: `$ ${opening_amount}` },
-    { header: "Current Amount", text: `$ ${present_amount}` },
+    { header: "Account Status", text: (!account_status ? "Inactive":"Active") },
+    { header: "Account Number", text: account_number },
+    { header: "Opening Balance", text: `$ ${opening_amount}` },
+    { header: "Current Balance", text: `$ ${present_amount}` },
   ];
   const NavData = [username, profile_photo];
 
+const handleClick =()=>{
+
+  modal.current.classList.remove('hidden')
+  setTimeout(() => {
+    modal.current.classList.add('hidden')
+  }, 2000);
+  
+}
+
   return (
-    <div id="db-wrapper">
+    <div id="db-">
       {/* <!-- Page content --> */}
       {data && (
         <div id="page-content">
@@ -75,10 +76,14 @@ function DashBoard({ data }) {
                 {/* <!-- Page header --> */}
                 <div>
                   <div className="d-flex justify-content-between align-items-center">
-                    <div className="mb-2 mb-lg-0">
-                      <h3 className="mb-0 fw-bold text-white">Projects</h3>
+                    <div className=" mb-lg-0">
+                    <div className="btn btn-white" onClick={handleClick}>
+                        Withdraw
+                      </div>
+                      <div className="text-white hidden" ref={modal}>Your account is inactive </div>
                     </div>
                     <div>
+                      
                       <Link to="/" className="btn btn-white">
                         Logout
                       </Link>
