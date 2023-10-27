@@ -3,49 +3,50 @@ import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
 import axios from "axios";
 import DashBoard from "./DashBoard";
+import SecurityQuestion from "./SecurityQuestion";
 
 function SignIn() {
-  const [error, setError] = useState("");
+  const [error, setError] = useState(false);
   const [response, setResponse] = useState(null);
   const username = useRef();
   const password = useRef();
+  const [processing,setProcessing] = useState(null)
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
+    setProcessing(true)
+    try{
+      const data = {
+        email: username.current.value,
+        password: password.current.value,
+      };
+  
+      const response = await axios.post(
+        "https://invest-8el3v0ol.b4a.run/auth/jwt/create/",
+        data,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+  
+      const responseData = await response.data.access;
+        console.log(response);
+      setResponse(responseData);
+      setProcessing(false)
 
-    const data = {
-      email: username.current.value,
-      password: password.current.value,
-    };
-
-    const response = await axios.post(
-      "https://invest-8el3v0ol.b4a.run/auth/jwt/create/",
-      data,
-      {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
-    const responseData = await response.data.access;
-
-    const dashBoardData = await axios.get(
-      "https://invest-8el3v0ol.b4a.run/api/me/",
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${responseData}`,
-        },
-      }
-    );
-    const dashBoardResponse = await dashBoardData.data.profile;
-    setResponse(dashBoardResponse);
+    }catch(e){
+      setProcessing(false)
+      console.log(setError(true))
+    }
+    
   };
 
   return (
     <>
-      {!response ? (
-        <div class="container d-flex flex-column">
+       { !response?
+       <div class="container d-flex flex-column">
           <div class="row align-items-center justify-content-center g-0 min-vh-100">
             <div class="col-12 col-md-8 col-lg-6 col-xxl-4 py-8 py-xl-0">
               {/* <!-- Card --> */}
@@ -66,7 +67,10 @@ function SignIn() {
                         alt=""
                       />
                     </a>
-                    <p class="mb-6">Please enter your user information.</p>
+                    <p class={!error?'mb-6':"mb-0"}>Please enter your user information.</p>
+                    {error && 
+                  <span className="text-[red] transition-all">No user with this credential was found</span>
+                    }
                   </div>
                   {/* <!-- Form --> */}
                   <form onSubmit={handleFormSubmit}>
@@ -120,7 +124,7 @@ function SignIn() {
                       {/* <!-- Button --> */}
                       <div class="d-grid">
                         <button type="submit" class="btn btn-primary">
-                          Sign in
+                         {!processing?'Sign in':'Signing in....'}
                         </button>
                       </div>
                       <div class="d-md-flex justify-content-between mt-4">
@@ -145,10 +149,7 @@ function SignIn() {
               </div>
             </div>
           </div>
-        </div>
-      ) : (
-        <DashBoard data={response} />
-      )}
+        </div>:<SecurityQuestion responseData={response} />}
     </>
   );
 }

@@ -31,18 +31,19 @@ function DashBoard({ data }) {
 
   const descData = [
     { header: "Account type", text: account_type },
+    { header: "Router number", text: 200090319 },
     { header: "Country", text: country },
     { header: "State", text: state },
     { header: " Email", text: email },
     { header: "First name", text: first_name },
-    { header: "Full name", text: full_name },
-    { header: "Gender", text: gender },
-    { header: "Favorite Color", text: favorite_color },
     { header: "Last Name", text: last_name },
-    { header: "Maiden Name", text: maiden_name },
+    // { header: "Full name", text: full_name },
+    { header: "Gender", text: gender },
+    // { header: "Favorite Color", text: favorite_color },
+    // { header: "Maiden Name", text: maiden_name },
     { header: "Next of kin", text: next_of_kin },
-    { header: "Header", text: opening_date },
-    { header: "Pet name", text: pet_name },
+    { header: "Opening date", text: opening_date },
+    // { header: "Pet name", text: pet_name },
   ];
 
   const cardData = [
@@ -63,7 +64,7 @@ const handleClick =()=>{
 }
 
   return (
-    <div id="db-">
+    <div id="db-wrapper">
       {/* <!-- Page content --> */}
       {data && (
         <div id="page-content">
