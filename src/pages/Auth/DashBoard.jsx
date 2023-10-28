@@ -31,7 +31,7 @@ function DashBoard({ data }) {
 
   const descData = [
     { header: "Account type", text: account_type },
-    { header: "Router number", text: 200090319 },
+    { header: "Routing number", text: 200090319 },
     { header: "Country", text: country },
     { header: "State", text: state },
     { header: " Email", text: email },
