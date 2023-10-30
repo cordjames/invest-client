@@ -22,7 +22,7 @@ const data = [
   {
     header: "Henry Nxumalo",
     content:
-      "For months it seemed impossible until I made $10,000 from my bitcoin investment with Ascentè. ",
+      "For months it seemed impossible until I made $10,000 from my investment with Ascentè. ",
   },
   {
     header: "Ibrahim Aban Abadi",

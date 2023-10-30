@@ -25,9 +25,9 @@ function NavBar() {
             <Link to="/auth/sign-in" className="md:block hidden">
               <RButton text="Sign in" />
             </Link>
-            <Link to="/auth/sign-up" className="md:ml-5 md:block hidden">
+            {/* <Link to="/auth/sign-up" className="md:ml-5 md:block hidden">
               <RButton text="Sign up" />
-            </Link>
+            </Link> */}
             <button
               onClick={toggleMenu}
               type="button"
@@ -87,14 +87,14 @@ function NavBar() {
                   Blog
                 </a>
               </li>
-              <li className="mb-8 lg:pr-8 md:mb-0 ">
+              {/* <li className="mb-8 lg:pr-8 md:mb-0 ">
                 <a
                   href="#contact"
                   className="block py-2 pl-3 pr-4 text-slate-500  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-slate dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Contact Us
                 </a>
-              </li>
+              </li> */}
 
               <span>
                 <Link to="/auth/sign-in">
@@ -105,14 +105,14 @@ function NavBar() {
                     Sign In
                   </button>
                 </Link>
-                <Link to="/auth/sign-up">
+                {/* <Link to="/auth/sign-up">
                   <button
                     type="button"
                     className="text-white bg-blue-800 hover:bg-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none md:hidden lg:hidden"
                   >
                     Sign Up
                   </button>
-                </Link>
+                </Link> */}
               </span>
             </ul>
           </div>

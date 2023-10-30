@@ -15,7 +15,7 @@ import NavBar from "../components/Landing/NavBar";
 const hero1 = {
   header: "How It Works?",
   content:
-    "Very easy steps to start earning from major BTC and Indices investments. It all begins with just a click away.",
+    "Very easy steps to start earning from major Indices investments. It all begins with just a click away.",
 };
 
 const child = [
@@ -44,8 +44,8 @@ const child = [
 const TextImg2 = {
   header: "About Ascentè",
   content: [
-    "Ascentè assists retail and institutional investors in using BTC and other instruments as an asset class and part of their investment objectives. We strive to execute on the best trading platforms with access to lowcost pricing, reliable trading infrastructure, fast execution and exceptional client support..",
-    "Ascentè uses direct access to multiple destinations of liquidity in the BTC markets without the usual burdens of a deal desk that had previously been unavailable to the retail investor. Now trade BTC, STOCK CFDs, INDICES, OIL and GOLD on MT4/MT5 with leverage up to 888:1 above",
+    "Ascentè assists retail and institutional investors in using and other instruments as an asset class and part of their investment objectives. We strive to execute on the best trading platforms with access to lowcost pricing, reliable trading infrastructure, fast execution and exceptional client support..",
+    "Ascentè uses direct access to multiple destinations of liquidity in the markets without the usual burdens of a deal desk that had previously been unavailable to the retail investor. STOCK CFDs, INDICES, OIL and GOLD on MT4/MT5 with leverage up to 888:1 above",
   ],
   src: about_img5,
 };
@@ -59,16 +59,16 @@ const TextImg3 = {
 };
 
 const data1 = [
-  {
-    header: "What is cryptocurrency?",
-    content:
-      " Bitcoin is a cryptocurrency. It is a decentralized digital currency without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.",
-  },
-  {
-    header: "How can i Register New Account?",
-    content:
-      " To register a new account, simply click on the “Sign Up” link and fill out the required information.",
-  },
+  // {
+  //   header: "What is cryptocurrency?",
+  //   content:
+  //     " Bitcoin is a cryptocurrency. It is a decentralized digital currency without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.",
+  // },
+  // {
+  //   header: "How can i Register New Account?",
+  //   content:
+  //     " To register a new account, simply click on the “Sign Up” link and fill out the required information.",
+  // },
   {
     header: "How do i request for withdrawal?",
     content:
@@ -109,9 +109,9 @@ function LandingPage() {
     <div className="bg-[#0C0E27] w-full">
       <NavBar />
       <div className="container mx-auto">
-        <Hero />
+        {/* <Hero /> */}
         <Stats />
-        <AnalyticsImages />
+        {/* <AnalyticsImages /> */}
         <SubHero
           header={hero1.header}
           headerContent={hero1.content}
@@ -132,8 +132,8 @@ function LandingPage() {
           content={TextImg3.content}
           src={TextImg3.src}
         />
-        <TextImageBottom />
-        <FaqContainer data1={data1} data2={data2} />
+        {/* <TextImageBottom /> */}
+        {/* <FaqContainer data1={data1} data2={data2} /> */}
         <TestimonyContainer />
       </section>
       <Footer />
