@@ -12,7 +12,7 @@ export default function Footer() {
           </a>
           . All Rights Reserved.
         </span>
-        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white-500 dark:text-white-400 sm:mt-0">
           <li>
             <a href="#" className="mr-4 hover:underline md:mr-6">
               About

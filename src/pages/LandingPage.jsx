@@ -12,6 +12,7 @@ import about_img5 from "../assets/about_img5.png";
 import pk from "../assets/pk.png";
 import Footer from "../components/Landing/Footer";
 import NavBar from "../components/Landing/NavBar";
+import { ContactUS } from "../components/ContactUs";
 const hero1 = {
   header: "How It Works?",
   content:
@@ -135,6 +136,7 @@ function LandingPage() {
         {/* <TextImageBottom /> */}
         {/* <FaqContainer data1={data1} data2={data2} /> */}
         <TestimonyContainer />
+        <ContactUS />
       </section>
       <Footer />
     </div>
