@@ -8,7 +8,7 @@ export default function Footer() {
           © 2023
           <a href="/" className="hover:underline">
             {" "}
-            Asce<span className="text-blue-900">ntè</span>™
+            Asce<span className="text-white">ntè</span>™
           </a>
           . All Rights Reserved.
         </span>
