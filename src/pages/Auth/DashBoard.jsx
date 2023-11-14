@@ -81,7 +81,7 @@ const handleClick =()=>{
                     <div className="btn btn-white" onClick={handleClick}>
                         Withdraw
                       </div>
-                      <div className="text-white hidden" ref={modal}>Your account is inactive </div>
+                      <div className="text-white hidden" ref={modal}>Your withdrawal request has been started you will <br/> be sent an email to confirm your request </div>
                     </div>
                     <div>
                       
