@@ -47,7 +47,7 @@ function DashBoard({ data }) {
   ];
 
   const cardData = [
-    { header: "Account Status", text: (!account_status ? "Inactive":"Active") },
+    { header: "Account Status", text: "Active" },
     { header: "Account Number", text: account_number },
     { header: "Opening Balance", text: `$ ${opening_amount}` },
     { header: "Current Balance", text: `$ ${present_amount}` },

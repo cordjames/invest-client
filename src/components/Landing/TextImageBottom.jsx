@@ -7,9 +7,8 @@ function TextImageBottom() {
         How it Works?
       </h4>
       <p class="text-white mb-5">
-        Elena is a company that helps retail and institutional investors to use
-        Bitcoin (BTC) and other instruments as an asset class and part of their
-        investment objectives. They aim to execute on the best trading platforms
+        Ascente is a company that helps retail and institutional investors to make smart trades. 
+        They aim to execute on the best trading platforms
         with access to low-cost pricing, reliable trading infrastructure, fast
         execution, and exceptional client support 1.
       </p>

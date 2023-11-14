@@ -51,9 +51,9 @@ const TextImg2 = {
   src: about_img5,
 };
 const TextImg3 = {
-  header: "Fully Automated Trading Platforms, Mobile And Tablet.",
+  header: "Fully Automated Trading Platforms",
   content: [
-    "Our Trade platform can be accessed from your desktop and browser. You can also take a position via World-class execution. No re-quotes, Meta 4 and 5.",
+    "Our Trade platform can be accessed from your desktop and browser. You can also take a position via World-class execution. No re-quotes.",
     "Our spreads are competitive, starting from just 0.9 points on the DE 30, 0.8 points on the UK 100 and 1 pip on USD/JPY and EUR/USD.",
   ],
   src: pk,
@@ -86,18 +86,18 @@ const data2 = [
   {
     header: "How long does it takes for my Deposit to be Added?",
     content:
-      "Your deposit is automatically added after 3 network confirmations for cryptocurrencies/binary.",
+      "Your deposit is automatically added after 3 network confirmations.",
   },
   {
     header: "How Can i Deposit funds into my account?",
     content:
       "We offer a variety of deposit options. Please click here to see all available methods.",
   },
-  {
-    header: "Have More Questions?",
-    content:
-      "Please go to binancefxmarkets.com and select 'Live Chat'. One of our dedicated Support Agents will be able to answer any questions you may have, Alternatively, simply send an email to support@whalewallet.co.",
-  },
+  // {
+  //   header: "Have More Questions?",
+  //   content:
+  //     "Please go to binancefxmarkets.com and select 'Live Chat'. One of our dedicated Support Agents will be able to answer any questions you may have, Alternatively, simply send an email to support@whalewallet.co.",
+  // },
   {
     header: " Am i Entitled to Bonus?",
     content:
@@ -110,9 +110,9 @@ function LandingPage() {
     <div className="bg-[#0C0E27] w-full">
       <NavBar />
       <div className="container mx-auto">
-        {/* <Hero /> */}
+        <Hero />
         <Stats />
-        {/* <AnalyticsImages /> */}
+        <AnalyticsImages />
         <SubHero
           header={hero1.header}
           headerContent={hero1.content}
@@ -133,8 +133,8 @@ function LandingPage() {
           content={TextImg3.content}
           src={TextImg3.src}
         />
-        {/* <TextImageBottom /> */}
-        {/* <FaqContainer data1={data1} data2={data2} /> */}
+        <TextImageBottom />
+        <FaqContainer data1={data1} data2={data2} />
         <TestimonyContainer />
         <ContactUS />
       </section>

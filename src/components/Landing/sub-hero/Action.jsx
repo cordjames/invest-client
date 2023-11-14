@@ -17,7 +17,7 @@ function Action({ header, content, noBtn }) {
         <p className="text-white mb-5">{content}</p>
       )}
       {/* if i don't want the button */}
-      {!noBtn && <RButton text="Get started" />}
+      {/* {!noBtn && <RButton text="Get started" />} */}
     </section>
   );
 }

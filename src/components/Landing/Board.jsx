@@ -7,9 +7,6 @@ function Board() {
         <h4 class="font-bold text-4xl text-white">
           Welcome to a new generation of Automated Investor processor.
         </h4>
-        <p className="text-center text-2xl">
-          For more enquires. Please contact us!
-        </p>
       </div>
     </div>
   );

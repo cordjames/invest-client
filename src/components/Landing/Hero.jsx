@@ -18,7 +18,7 @@ function Hero({ data1, data2 }) {
             <br /> Investment Platform
           </h1>
           <p id="less-txt" mb-4 class="mb-4  text-[large]  hero-p text-white">
-            With the latest Investment software and Blockchain technology, These
+            With the latest Investment technology, These
             activities are managed automatically and instantly, Delivering
             Prompt Services Updates.
           </p>
@@ -26,17 +26,17 @@ function Hero({ data1, data2 }) {
             id="great-txt"
             class="font-bold md:!text-2xl text-xl hero-p text-white"
           >
-            Invest BTC, STOCK CFDs, Stock Indices, Oil and Gold on MT4/MT5 with
+            Invest STOCK CFDs, Stock Indices, Oil and Gold with
             leverage up to 888:1 and above
           </p>
-          <div class="">
+          {/* <div class="">
             <div class="w-full flex md:max-w-[60%]">
               <span className="pr-4">
                 <ButtonText text="TRADE FX" />
               </span>
               <ButtonText text="CRYPTO TRADE" />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div class="w-full md:w-[48%] p-6 sm:p-3">
@@ -48,21 +48,21 @@ function Hero({ data1, data2 }) {
             <span id="cap">TECHNOLOGY</span> that <span id="cap">EARN</span>s
             <br /> more <span id="cap">PROFITS</span>
           </h1>
-          <div class="hero-container">
+          {/* <div class="hero-container">
             <p id="td-nw" className="hero-p">
               TRADE NOW <SButton text="Live" />
             </p>
-          </div>
+          </div> */}
           <HeroCount />
-          <div class="flex flex-wrap items-center justify-between md:max-w-[76%]">
+          {/* <div class="flex flex-wrap items-center justify-between md:max-w-[76%]">
             <div class=" mb-1 mt-2">
               <RButton text="BTC/STOCKS/INDICES" />
             </div>
             <div class="">
               <GbButton text="CRYPTO TRADE" />
             </div>
-          </div>
-          <AxxCur />
+          </div> */}
+          {/* <AxxCur /> */}
         </div>
       </div>
     </div>
