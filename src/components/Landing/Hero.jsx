@@ -18,7 +18,7 @@ function Hero({ data1, data2 }) {
             <br /> Investment Platform
           </h1>
           <p id="less-txt" mb-4 class="mb-4  text-[large]  hero-p text-white">
-            With the latest Investment technology, Monitoring and trading of
+            With the latest Investment technology, monitoring and trading of
             stocks and forex pairs are managed automatically and instantly, delivering the highest
             returns.
           </p>
