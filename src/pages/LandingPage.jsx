@@ -68,12 +68,12 @@ const data1 = [
   //     " Bitcoin is a cryptocurrency. It is a decentralized digital currency without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.",
   // },
   {
-    header: "How can i Register New Account?",
+    header: "How can i register a new account?",
     content:
       " To register a new account, simply send an email to ascenteinvestmentgroup@gmail.com our accpunt mangers will get in touch with you..",
   },
   {
-    header: "How do i request for withdrawal?",
+    header: "How do i request a withdrawal?",
     content:
       " You can request a withdrawal by clicking the “Withdraw” button in your dashboard, an email will be sent to you, so as to confirm your request.",
   },
@@ -101,7 +101,7 @@ const data2 = [
   //     "Please go to binancefxmarkets.com and select 'Live Chat'. One of our dedicated Support Agents will be able to answer any questions you may have, Alternatively, simply send an email to support@whalewallet.co.",
   // },
   {
-    header: " Am i Entitled to Bonus?",
+    header: " Am i Entitled to a bonus?",
     content:
       " Please note that once your account is fully verified, your bonus will automatically be added to your account.",
   },
