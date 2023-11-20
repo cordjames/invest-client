@@ -3,7 +3,7 @@ import StatCard from "./stats-comps/StatCard";
 const stat = [
   { header: "$4M +", content: "PM Card" },
   { header: "$5M+", content: "SGT Vouchers" },
-  { header: "46,000", content: "Active Investors" },
+  { header: "46,005", content: "Active Investors" },
   { header: "$400M+", content: "Inv. Deposit" },
   { header: "$980+", content: "withdrawal" },
   { header: "4.3/5", content: "service Assured" },
