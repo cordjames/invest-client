@@ -1,7 +1,7 @@
 
 export function ContactUS() {
     return (
-        <div className="flex items-center justify-center w-full mb-4">
+        <div className="flex items-center justify-center w-full mb-4" id="contact">
             <section className="flex flex-col items-left w-fit">
             <h4 class="font-bold text-2xl text-[#fff] relative pb-2 mb-5 before:left-[46%] text-center before:left-[46%]  before:bg-white before:bottom-0 before:content-[''] before:h-[2px] before:absolute before:w-[80px] before:m-0">
                 GET IN TOUCH

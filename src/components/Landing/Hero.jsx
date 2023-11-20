@@ -14,13 +14,13 @@ function Hero({ data1, data2 }) {
             class="mb-4 sm:mb-4 hero-h1 font-['Poppins'_sans-serif] text-[40px] text-white font-extrabold"
             id="cap"
           >
-            Your Number One Automated
+            Your Number One
             <br /> Investment Platform
           </h1>
           <p id="less-txt" mb-4 class="mb-4  text-[large]  hero-p text-white">
-            With the latest Investment technology, These
-            activities are managed automatically and instantly, Delivering
-            Prompt Services Updates.
+            With the latest Investment technology, Monitoring and trading of
+            stocks and forex pairs are managed automatically and instantly, delivering the highest
+            returns.
           </p>
           <p
             id="great-txt"
@@ -53,7 +53,7 @@ function Hero({ data1, data2 }) {
               TRADE NOW <SButton text="Live" />
             </p>
           </div> */}
-          <HeroCount />
+          {/* <HeroCount /> */}
           {/* <div class="flex flex-wrap items-center justify-between md:max-w-[76%]">
             <div class=" mb-1 mt-2">
               <RButton text="BTC/STOCKS/INDICES" />

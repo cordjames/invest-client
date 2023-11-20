@@ -45,13 +45,15 @@ const child = [
 const TextImg2 = {
   header: "About Ascentè",
   content: [
-    "Ascentè assists retail and institutional investors in using and other instruments as an asset class and part of their investment objectives. We strive to execute on the best trading platforms with access to lowcost pricing, reliable trading infrastructure, fast execution and exceptional client support..",
-    "Ascentè uses direct access to multiple destinations of liquidity in the markets without the usual burdens of a deal desk that had previously been unavailable to the retail investor. STOCK CFDs, INDICES, OIL and GOLD on MT4/MT5 with leverage up to 888:1 above",
+    "Welcome to ASCENTE, a distinguished leader in the world of financial services and investment management. Founded in 1999, we have consistently provided innovative and strategic solutions to meet the diverse needs of our clients.",
+    "At ASCENTE, our mission is to empower individuals and business to achieve financial success through intelligent and ethical investment practices. We are committed to delivering sustainable growth and creating lasting value for our clients.",
+    "ASCENTE assists retail and institutional investors in using and other instruments as an asset class and part of their investment objectives. We strive to execute on the best trading platforms with access to lowcost pricing, reliable trading infrastructure, fast execution and exceptional client support..",
+    "ASCENTE uses direct access to multiple destinations of liquidity in the markets without the usual burdens of a deal desk that had previously been unavailable to the retail investor. STOCK CFDs, INDICES, OIL and GOLD on MT4/MT5 with leverage up to 888:1 above",
   ],
   src: about_img5,
 };
 const TextImg3 = {
-  header: "Fully Automated Trading Platforms",
+  header: "Trade on desktop and mobile browsers",
   content: [
     "Our Trade platform can be accessed from your desktop and browser. You can also take a position via World-class execution. No re-quotes.",
     "Our spreads are competitive, starting from just 0.9 points on the DE 30, 0.8 points on the UK 100 and 1 pip on USD/JPY and EUR/USD.",
@@ -65,21 +67,21 @@ const data1 = [
   //   content:
   //     " Bitcoin is a cryptocurrency. It is a decentralized digital currency without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.",
   // },
-  // {
-  //   header: "How can i Register New Account?",
-  //   content:
-  //     " To register a new account, simply click on the “Sign Up” link and fill out the required information.",
-  // },
+  {
+    header: "How can i Register New Account?",
+    content:
+      " To register a new account, simply send an email to ascenteinvestmentgroup@gmail.com our accpunt mangers will get in touch with you..",
+  },
   {
     header: "How do i request for withdrawal?",
     content:
-      " You can request a withdrawal by clicking the “Withdraw” button in the member's area and entering the amount you want to withdraw.",
+      " You can request a withdrawal by clicking the “Withdraw” button in your dashboard, an email will be sent to you, so as to confirm your request.",
   },
-  {
-    header: "Can i Change Payment Address?",
-    content:
-      " You can change your payment withdrawal address by clicking the “Settings” button on the menu after logging in to your account. Enter your new payment address and save the changes.",
-  },
+  // {
+  //   header: "Can i Change Payment Address?",
+  //   content:
+  //     " You can change your payment withdrawal address by clicking the “Settings” button on the menu after logging in to your account. Enter your new payment address and save the changes.",
+  // },
 ];
 
 const data2 = [
@@ -88,11 +90,11 @@ const data2 = [
     content:
       "Your deposit is automatically added after 3 network confirmations.",
   },
-  {
-    header: "How Can i Deposit funds into my account?",
-    content:
-      "We offer a variety of deposit options. Please click here to see all available methods.",
-  },
+  // {
+  //   header: "How Can i Deposit funds into my account?",
+  //   content:
+  //     "We offer a variety of deposit options. Please click here to see all available methods.",
+  // },
   // {
   //   header: "Have More Questions?",
   //   content:
@@ -119,7 +121,7 @@ function LandingPage() {
           children={child}
         />
       </div>
-      <Board />
+      {/* <Board /> */}
       <section className="container mx-auto">
         <TextImage
           hasParameter="true"
