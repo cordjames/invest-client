@@ -114,15 +114,7 @@ function LandingPage() {
       <div className="container mx-auto">
         <Hero />
         <Stats />
-        <AnalyticsImages />
-        <SubHero
-          header={hero1.header}
-          headerContent={hero1.content}
-          children={child}
-        />
-      </div>
-      {/* <Board /> */}
-      <section className="container mx-auto">
+        <div id="about"></div>
         <TextImage
           hasParameter="true"
           header={TextImg2.header}
@@ -130,6 +122,24 @@ function LandingPage() {
           src={TextImg2.src}
           cond="true"
         />
+        
+        <AnalyticsImages />
+        
+        {/* <SubHero
+          header={hero1.header}
+          headerContent={hero1.content}
+          children={child}
+        /> */}
+      </div>
+      {/* <Board /> */}
+      <section className="container mx-auto">
+        {/* <TextImage
+          hasParameter="true"
+          header={TextImg2.header}
+          content={TextImg2.content}
+          src={TextImg2.src}
+          cond="true"
+        /> */}
         <TextImage
           header={TextImg3.header}
           content={TextImg3.content}

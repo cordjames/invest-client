@@ -11,9 +11,10 @@ function NavBar() {
   };
 
   return (
-    <div className="w-full max-w-full xl:px-0 z-10 sticky top-0 bg-[#0C0E27]">
+    <div className="w-full max-w-full xl:px-0 z-10 sticky top-0 bg-[#0C0E27]" id="home">
       <nav className="  w-full shadow-sm container mx-auto">
         <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
+        {/* <img src="path-to-your-image.jpg" class="h-6 w-6 cursor-pointer md:hidden block" alt="Navbar Icon"/> */}
           <Link to="/" className="flex items-center ">
             <span className="self-center text-4xl font-semibold whitespace-nowrap text-white">
               Asce
@@ -65,7 +66,7 @@ function NavBar() {
             >
               <li className="mb-8 lg:pr-8 md:mb-0 ">
                 <a
-                  href="#home"
+                  href="#"
                   className="block py-2 pl-3 pr-4 text-slate-500   rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-slate dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Home
@@ -87,6 +88,14 @@ function NavBar() {
                   Blog
                 </a>
               </li> */}
+              <li className="mb-8 lg:pr-8 md:mb-0 ">
+                <a
+                  href="#about"
+                  className="block py-2 pl-3 pr-4 text-slate-500  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-slate dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                  About Us
+                </a>
+              </li>
               <li className="mb-8 lg:pr-8 md:mb-0 ">
                 <a
                   href="#contact"
