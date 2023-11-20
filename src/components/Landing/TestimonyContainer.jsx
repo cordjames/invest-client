@@ -27,7 +27,7 @@ const data = [
   {
     header: "Ibrahim Aban Abadi",
     content:
-      "Ascentè is one of the best private crypto investment organization, solely committed to the generation and awareness of the wealth",
+      "Ascentè is one of the best private investment organization, solely committed to the generation and awareness of the wealth",
   },
   {
     header: "Christina J. James",
