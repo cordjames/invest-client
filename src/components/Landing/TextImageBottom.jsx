@@ -11,13 +11,13 @@ function TextImageBottom() {
 
 How Ascente can help retail and institutional investors make smart trades:<br/>
 
-Low-cost pricing: Ascente is committed to providing its clients with the best possible value, which is why they offer low-cost pricing on their trading platforms and execution services. This can save clients a significant amount of money over time.<br/>
+Ascente is committed to providing its clients with the best possible value, which is why they offer low-cost pricing on their trading platforms and execution services. This can save clients a significant amount of money over time.<br/>
 
-Reliable trading infrastructure: Ascente has a robust trading infrastructure that is designed to ensure that clients can always execute their trades quickly and efficiently. This is critical for traders who need to be able to take advantage of market opportunities quickly.<br/>
+Ascente has a robust trading infrastructure that is designed to ensure that clients can always execute their trades quickly and efficiently. This is critical for traders who need to be able to take advantage of market opportunities quickly.<br/>
 
-Fast execution: Ascente's trading platform is designed for fast execution, which means that clients can get their trades filled quickly and efficiently. This is important for traders who need to be able to enter and exit positions quickly.<br/>
+Ascente's trading platform is designed for fast execution, which means that clients can get their trades filled quickly and efficiently. This is important for traders who need to be able to enter and exit positions quickly.<br/>
 
-Exceptional client support: Ascente is committed to providing its clients with exceptional customer support. Their team of experienced professionals is available to answer questions, provide guidance, and troubleshoot any problems that clients may encounter.<br/>
+Ascente is committed to providing its clients with exceptional customer support. Their team of experienced professionals is available to answer questions, provide guidance, and troubleshoot any problems that clients may encounter.<br/>
 
 Overall, Ascente is a valuable resource for retail and institutional investors who are looking to make smart trades. They offer a wide range of services and tools that can help clients achieve their financial goals.
 
