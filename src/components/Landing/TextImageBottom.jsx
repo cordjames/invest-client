@@ -7,15 +7,15 @@ function TextImageBottom() {
         How it Works?
       </h4>
       <p class="text-white mb-5">
-      Ascente is a financial services firm that provides retail and institutional investors with the tools and support they need to make smart trades. They focus on providing access to the best trading platforms, low-cost pricing, reliable trading infrastructure, fast execution, and exceptional client support.<br/>
+      Ascente is a financial services firm that provides retail and institutional investors with the tools and support they need to make smart trades. We focus on providing access to the best trading platforms, low-cost pricing, reliable trading infrastructure, fast execution, and exceptional client support.<br/>
 
-Ascente is committed to providing its clients with the best possible value, which is why they offer low-cost pricing on their trading platforms and execution services. This can save clients a significant amount of money over time.<br/>
+We are committed to providing our clients with the best possible value, which is why we offer low-cost pricing on their trading platforms and execution services. This can save clients a significant amount of money over time.<br/>
 
-Ascente has a robust trading infrastructure that is designed to ensure that clients can always execute their trades quickly and efficiently. This is critical for traders who need to be able to take advantage of market opportunities quickly.<br/>
+Ascente has a robust trading infrastructure that is designed to ensure that our traders can always execute their trades quickly and efficiently. This is critical for traders who need to be able to take advantage of market opportunities quickly.<br/>
 
-Ascente's trading platform is designed for fast execution, which means our clients can get their trades filled quickly and efficiently. This is important for traders who need to be able to enter and exit positions quickly.<br/>
+Ascente's trading platform is designed for fast execution, which means our traders can get their trades filled quickly and efficiently. This is important for traders who need to be able to enter and exit positions quickly.<br/>
 
-Ascente is committed to providing its clients with exceptional customer support. Our team of experienced professionals is available to answer questions, provide guidance, and troubleshoot any problems that clients may encounter.<br/>
+Ascente is committed to providing its clients with exceptional customer support. Our team of experienced professionals is available to answer questions, provide guidance, and troubleshoot any problems that our investors may encounter.<br/>
       </p>
       <img src={tra} alt="" />
     </div>
