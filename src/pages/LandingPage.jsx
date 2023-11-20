@@ -86,7 +86,7 @@ const data1 = [
 
 const data2 = [
   {
-    header: "How long does it takes for my Deposit to be Added?",
+    header: "How long does it takes for my Deposit to be added?",
     content:
       "Your deposit is automatically added after 3 network confirmations.",
   },
