@@ -7,9 +7,7 @@ function TextImageBottom() {
         How it Works?
       </h4>
       <p class="text-white mb-5">
-      Ascente is a financial services firm that provides retail and institutional investors with the tools and support they need to make smart trades. They focus on providing access to the best trading platforms, low-cost pricing, reliable trading infrastructure, fast execution, and exceptional client support.
-
-How Ascente can help retail and institutional investors make smart trades:<br/>
+      Ascente is a financial services firm that provides retail and institutional investors with the tools and support they need to make smart trades. They focus on providing access to the best trading platforms, low-cost pricing, reliable trading infrastructure, fast execution, and exceptional client support.<br/>
 
 Ascente is committed to providing its clients with the best possible value, which is why they offer low-cost pricing on their trading platforms and execution services. This can save clients a significant amount of money over time.<br/>
 
